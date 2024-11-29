@@ -390,3 +390,30 @@ ul li {
   font-size: small;
   margin: 5px;
 }
+
+@media screen and (max-width: 767px) {
+
+    #middlePage {
+        flex-direction: column;
+        padding: 0 3em 1em 3em;
+
+    }
+
+    aside {
+        order: 0;
+    }
+
+    #articles {
+        order: 1;
+    }
+
+    #asideButtons {
+        width: 80%;
+        border-bottom: none;
+    }
+
+    #list {
+        border-top: 1px solid #e8e8e8;
+        margin-bottom: 1em;
+    }
+}
