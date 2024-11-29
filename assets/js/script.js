@@ -2,7 +2,7 @@ const nav = document.querySelector('nav');
 const navBtn = document.querySelector('nav ul li button');
 const header = document.querySelector('header')
 
-const navHeight = 380
+const navHeight = 370;
 
 window.addEventListener('scroll', function() {
     if (window.scrollY >= navHeight) {
