@@ -131,6 +131,32 @@ nav ul li button {
   }
 }
 
+@media screen and (max-width: 575px) {
+
+    nav ul li:nth-child(-n+3) {
+        display: none;
+    }
+
+    #heroMs {
+        display: none;
+    }
+
+    #heroText {
+        flex-basis: 100%;
+        align-items: flex-start;
+        margin: 1.5em;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    #heroText p {
+        font-size: 1.6em;
+        margin-bottom: 1.5em;
+    }
+}
+
 /* MAIN */
 
 main {
