@@ -2,6 +2,95 @@
     box-sizing: border-box;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
 h1,h2,h3,h4,p,span {
     margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-size: 5.7em;
+    letter-spacing: -5px;
+}
+
+
+header, nav {
+    background-color: #FEC016;
+}
+
+nav {
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0.5em;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+nav ul li button {
+    font-size: 0.9em;
+    border-radius: 60px;
+    padding: 10px 13px;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    height: 49vh;
+}
+
+#heroText {
+    height: 100%;
+    margin-left: 8em;
+    padding-bottom: 4em;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+} 
+
+#heroText p {
+    width: 80%;
+    flex-basis: 20%;
+    font-size: 1.25em;
+    font-weight:light;
+    margin-bottom: 1.3em;
+} 
+
+#heroText button {
+    border-radius: 60px;
+    padding: 10px 13px;
+    background-color: black;
+    color: white;
+    border: 0;
+    width: 11em;
+    font-size: 1em;
+}
+
+#heroMs {
+    flex-basis: 40%;
 }
