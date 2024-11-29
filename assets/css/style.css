@@ -238,7 +238,9 @@ main {
   }
 
   #trending {
-    padding: 0em 3em 2em 3em;
+    padding: 0em 3em 0em 3em;
+    height: 20em;
+    align-content: space-between;
     justify-content: space-between;
   }
 
@@ -395,12 +397,13 @@ ul li {
 
     #middlePage {
         flex-direction: column;
-        padding: 0 3em 1em 3em;
+        padding: 0 0 1em 3em;
 
     }
 
     aside {
         order: 0;
+        position: static;
     }
 
     #articles {
@@ -415,5 +418,18 @@ ul li {
     #list {
         border-top: 1px solid #e8e8e8;
         margin-bottom: 1em;
+    }
+
+    .articlesText {
+        flex-basis: 60%;
+    }
+
+    .articlesText p:nth-of-type(2) span:nth-of-type(3) {
+        left: 33em;
+        bottom: -0.2em;
+      }
+
+    .articlesImg {
+        flex-basis: 40%;
     }
 }
