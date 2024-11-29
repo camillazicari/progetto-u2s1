@@ -115,6 +115,10 @@ nav ul li button {
     font-size: 3.7em;
   }
 
+  #hero {
+    overflow: hidden;
+  }
+
   #heroText {
     flex-basis: 55%;
     position: relative;
@@ -138,7 +142,7 @@ nav ul li button {
   #M {
     position: absolute;
     width: 30em;
-  }
+    }
 }
 
 @media screen and (max-width: 575px) {
