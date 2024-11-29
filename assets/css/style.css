@@ -154,7 +154,8 @@ nav ul li button {
     flex-basis: 100%;
     align-items: flex-start;
     margin: 1.5em;
-  }
+      left: 0em;
+    }
 
   h1 {
     font-size: 5em;
