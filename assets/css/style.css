@@ -47,11 +47,11 @@ nav {
 }
 
 .changecolor {
-    background-color: white;
+  background-color: white;
 }
 
 .colorChanger {
-    background-color: green;
+  background-color: green;
 }
 
 nav ul li {
@@ -111,17 +111,24 @@ nav ul li button {
 }
 
 @media screen and (max-width: 767px) {
-    h1 {
-        font-size: 3.5em;
-    }
+  h1 {
+    font-size: 3.5em;
+  }
 
-    #heroText p {
-        width: 100%;
-        font-size: 1em;
-        margin-bottom: 0;
-    }
+  #heroText p {
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 0;
+  }
 
-    
+  #heroMs {
+    position: relative;
+  }
+
+  #M {
+    position: absolute;
+    width: 30em;
+  }
 }
 
 /* MAIN */
@@ -208,9 +215,10 @@ main {
   width: 50%;
 }
 
-#trending .trendingItems:first-of-type h4 span, #trending .trendingItems:nth-of-type(2) h4 span {
-    padding-right: 30px;
-} 
+#trending .trendingItems:first-of-type h4 span,
+#trending .trendingItems:nth-of-type(2) h4 span {
+  padding-right: 30px;
+}
 
 #trending .trendingItems:first-of-type .trendingText img {
   border-radius: 50px;
@@ -221,16 +229,16 @@ main {
 }
 
 @media screen and (max-width: 767px) {
-    .trendingItems {
-        width: 48%;
-    }
+  .trendingItems {
+    width: 47%;
+  }
 
-    #trendingTitle {
-        padding: 4em 0em 0 6.1em;
-    }
+  #trendingTitle {
+    padding: 4em 0em 0 4.5em;
+  }
 
   #trending {
-    padding: 0em 4em 2em 4em;
+    padding: 0em 3em 2em 3em;
     justify-content: space-between;
   }
 
@@ -238,15 +246,9 @@ main {
     display: none;
   }
 
-  #heroMs {
-    position: relative;
+  .trendingText p:first-of-type {
+    font-size: 1em;
   }
-
-  #M {
-    position: absolute;
-    width: 30em;
-  }
-
 }
 /* MAIN: ARTICOLI */
 
