@@ -112,7 +112,17 @@ nav ul li button {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 3.5em;
+    font-size: 3.7em;
+  }
+
+  #heroText {
+    flex-basis: 55%;
+    position: relative;
+    right: 5em;
+  }
+
+  #heroMs {
+    flex-basis: 70%;
   }
 
   #heroText p {
