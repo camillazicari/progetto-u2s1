@@ -60,6 +60,7 @@ nav ul li button {
     display: flex;
     justify-content: space-between;
     height: 49vh;
+    border-bottom: 1px solid black;
 }
 
 #heroText {
@@ -93,4 +94,50 @@ nav ul li button {
 
 #heroMs {
     flex-basis: 40%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 3em 10em;
+}
+
+#trending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#trendingTitle {
+    display: flex;
+    align-items: center;
+    font-size: x-small;
+    margin-bottom: 2em;
+}
+
+#trendingTitle h3 {
+    margin-left: 0.5em;
+}
+
+.trendingItems{
+    width: 30%;
+    font-size: 1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.trendingItems img {
+    width: 7%;
+}
+
+.trendingItems div:last-child {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.numbers {
+    font-size: 2em;
 }
