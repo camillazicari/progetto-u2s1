@@ -317,9 +317,8 @@ main {
 aside {
   height: 50vh;
   flex-basis: 30%;
-  height: auto;
   position: sticky;
-  top: 66px;
+  top: 68px;
 }
 
 aside h3 {
