@@ -191,6 +191,10 @@ main {
   width: 50%;
 }
 
+#trending .trendingItems:first-of-type h4 span, #trending .trendingItems:nth-of-type(2) h4 span {
+    padding-right: 30px;
+} 
+
 #trending .trendingItems:first-of-type .trendingText img {
   border-radius: 50px;
 }
