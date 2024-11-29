@@ -110,7 +110,7 @@ nav ul li button {
   flex-basis: 40%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 3.5em;
   }
@@ -131,7 +131,7 @@ nav ul li button {
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
   nav ul li:nth-child(-n + 3) {
     display: none;
   }
@@ -253,7 +253,7 @@ main {
   border-radius: 3px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .trendingItems {
     width: 47%;
   }
@@ -315,7 +315,7 @@ main {
 }
 
 .articlesImg img {
-  width: 85%;
+  width: 100%;
 }
 
 .articlesText h3 span img {
@@ -354,7 +354,6 @@ main {
 .articlesText p:nth-of-type(2) span:nth-of-type(3) {
   position: absolute;
   left: 35em;
-  bottom: -0.7em;
 }
 
 .articlesText p:nth-of-type(2),
@@ -419,7 +418,7 @@ ul li {
   margin: 5px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   #middlePage {
     flex-direction: column;
     padding: 0 0 1em 3em;
@@ -450,15 +449,18 @@ ul li {
 
   .articlesText p:nth-of-type(2) span:nth-of-type(3) {
     left: 33em;
-    bottom: -0.2em;
   }
 
   .articlesImg {
     flex-basis: 40%;
   }
+
+  .articlesImg img {
+    width: 80%;
+  }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
   #trending {
     border-bottom: 0px;
     padding: 0 1.5em;
@@ -506,21 +508,25 @@ ul li {
   }
 
   .articlesItems {
-    justify-content: space-between;
-    align-content: space-between;
+    justify-content: center;
   }
 
   .articlesText {
-    flex-basis: 50%;
+    flex-basis: 60%;
+    justify-content: space-evenly;
   }
 
   .articlesImg {
-    flex-basis: 50%;
+    flex-basis: 40%;
     text-align: end;
   }
 
+  .articlesImg img {
+    width: 95%;
+  }
+
   .articlesText p:nth-of-type(2) span:nth-of-type(3) {
-    left: 23em;
+    left: 27em;
   }
 
 }
