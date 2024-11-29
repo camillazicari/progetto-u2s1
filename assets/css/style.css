@@ -112,7 +112,7 @@ nav ul li button {
 
 @media screen and (max-width: 767px) {
     h1 {
-        font-size: 4em;
+        font-size: 3.5em;
     }
 
     #heroText p {
@@ -121,9 +121,7 @@ nav ul li button {
         margin-bottom: 0;
     }
 
-    #heroMs {
-        height: 100%;
-    }
+    
 }
 
 /* MAIN */
@@ -222,6 +220,34 @@ main {
   border-radius: 3px;
 }
 
+@media screen and (max-width: 767px) {
+    .trendingItems {
+        width: 48%;
+    }
+
+    #trendingTitle {
+        padding: 4em 0em 0 6.1em;
+    }
+
+  #trending {
+    padding: 0em 4em 2em 4em;
+    justify-content: space-between;
+  }
+
+  .trendingText p span img {
+    display: none;
+  }
+
+  #heroMs {
+    position: relative;
+  }
+
+  #M {
+    position: absolute;
+    width: 30em;
+  }
+
+}
 /* MAIN: ARTICOLI */
 
 #middlePage {
