@@ -110,7 +110,7 @@ nav ul li button {
   flex-basis: 40%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 3.7em;
   }
@@ -145,7 +145,7 @@ nav ul li button {
     }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
   nav ul li:nth-child(-n + 3) {
     display: none;
   }
@@ -268,7 +268,7 @@ main {
   border-radius: 3px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .trendingItems {
     width: 47%;
   }
@@ -433,7 +433,7 @@ ul li {
   margin: 5px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   #middlePage {
     flex-direction: column;
     padding: 0 0 1em 3em;
@@ -475,7 +475,7 @@ ul li {
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
   #trending {
     border-bottom: 0px;
     padding: 0 1.5em;
